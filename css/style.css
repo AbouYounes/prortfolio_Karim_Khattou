@@ -111,3 +111,36 @@
     font-size: 24px;
     font-family: "Rajdhani", sans-serif;
 }
+
+.services{
+    background-color: #1A1F22;
+    padding: 80px 0px;
+    font-family: "Rajdhani", sans-serif;
+}
+
+.item-1{
+    border-right: 1px solid #F78940;
+    border-bottom: 1px solid #F78940;
+}
+
+.item-2{
+    border-bottom: 1px solid #F78940;
+}
+
+.item-3{
+    border-left: 1px solid #F78940;
+}
+
+.services-item{
+    transition: 0.7s;
+}
+
+.services-item:hover{
+    background-color: #F78940;
+}
+
+@media only screen and (max-width: 600px){
+    .services-item{
+        border: none;
+    }
+}
