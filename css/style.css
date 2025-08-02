@@ -167,3 +167,16 @@
     background-color: #1A1F22;
     padding: 80px 0px;
 }
+
+.contact{
+    background-color: #102a3c;
+    padding: 80px 0px;
+}
+
+.contact-input{
+    background-color: transparent;
+}
+
+.contact-input::placeholder{
+    color: #f5f8f8;
+}
