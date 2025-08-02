@@ -180,3 +180,8 @@
 .contact-input::placeholder{
     color: #f5f8f8;
 }
+
+.footer{
+    background-color: #1A1F22;
+    padding: 40px 0px;
+}
